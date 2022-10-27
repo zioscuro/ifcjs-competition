@@ -1,0 +1,30 @@
+{
+  "name": "lra-portfolio",
+  "version": "1.0.0",
+  "description": "This repo contains my personal portfolio site source code.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zioscuro/LRA-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zioscuro/LRA-portfolio/issues"
+  },
+  "homepage": "https://github.com/zioscuro/LRA-portfolio#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.2.3"
+  },
+  "dependencies": {
+    "camera-controls": "^1.37.3",
+    "three": "^0.135.0",
+    "web-ifc-three": "^0.0.121"
+  }
+}
